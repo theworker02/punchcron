@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/punchcron",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Punch digests and cron fingerprints for local integrity checks.",
+  "bin": {
+    "punchcron": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/punchcron.git"
+  },
+  "homepage": "https://theworker02.github.io/punchcron/",
+  "keywords": [
+    "punch",
+    "cron",
+    "hash",
+    "cli",
+    "toolkit"
+  ]
+}
